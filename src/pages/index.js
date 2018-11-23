@@ -7,7 +7,7 @@ import Image from '../components/image'
 const IndexPage = () => (
   <div>
     <div className="Hero">
-      <div className="HeroGroup">
+      <div className="HeroGoup">
         <h1>Learn to design and code React apps</h1>
         <p>So lerne ich React Apps zu programmieren.</p>
         <p>Und noch eine Zeile. hahaha</p>
