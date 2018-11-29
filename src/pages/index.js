@@ -9,7 +9,7 @@ const IndexPage = () => (
   <Layout>
     <div className="Hero">
       <div className="HeroGoup">
-        <h1>Learn to design and code React apps</h1>
+        <h1>My <br/>Developper Network for Beginners</h1>
         <p>So lerne ich React Apps zu programmieren.</p>
         <p>Und noch eine Zeile. hahaha</p>
 
