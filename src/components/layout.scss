@@ -59,6 +59,23 @@ a {
     }
 }
 
+.Hero{
+    position: relative;
+    svg{
+        position: absolute;
+        bottom: 0;
+        left:0;
+    }
+
+    .Logos{
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-gap: 40px;
+        margin: 100px 0;
+        justify-items: center;
+    }
+}
+
 @media (max-width: 640px) {
     .HeroGroup {
         padding: 100px 20px;
@@ -69,6 +86,10 @@ a {
         }
         p {
             font-size: 24px;
+        }
+
+        .Logos{
+            grid-template-columns: repeat(3, 1fr )
         }
     }
 }
@@ -83,3 +104,6 @@ a {
         transform: translateY(0px);
     }
 }
+
+
+
