@@ -74,11 +74,28 @@ M0,95 C112.673339,169.774259 220.918295,188.963145 324.734868,152.566658 C428.55
       </div>
       <div className="Cards">
         <h2>11 courses, more coming</h2>
+        <div className="CardGroup">
         <Card 
-            title="React for Designers" 
+            title="map.apps Basis" 
             text="12 sections"
             image={require('../images/wallpaper.jpg')}
             />
+        <Card 
+            title="map.apps Layout" 
+            text="10 sections"
+            image={require('../images/wallpaper2.jpg')}
+            />
+        <Card 
+            title="map.apps Design System" 
+            text="5 sections"
+            image={require('../images/wallpaper3.jpg')}
+            />
+        <Card 
+            title="map.apps 3D" 
+            text="8 sections"
+            image={require('../images/wallpaper4.jpg')}
+            />
+            </div>
       </div>
     </div>
   </Layout>
