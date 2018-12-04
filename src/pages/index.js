@@ -6,6 +6,9 @@ import Image from '../components/image'
 import Card from '../components/Card'
 import Section from '../components/Section';
 import Wave from '../components/Wave';
+import Cell from '../components/Cell';
+import staticdata from '../../staticdata.json';
+
 
 const IndexPage = () => (
   <Layout>
@@ -82,6 +85,13 @@ const IndexPage = () => (
     text="Learn how to build a modern libraries to get your site / product"
     
     />
+    {staticdata.cells.map(cell => (
+
+      <Cell 
+        title={cell.title}
+        image={cell.image} />
+
+      ))}
     </div>
 
   </Layout>
