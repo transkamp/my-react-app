@@ -8,6 +8,7 @@ body{
     width: 100%;
     padding: 50px 0;
     z-index: 100;
+    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
 
     a{
         font-weight: 700;
@@ -31,6 +32,13 @@ body{
            transform: translateY(-3px);
         }
     }
+}
+
+.HeaderScrolled{
+    background: rgba(0,0,0,0.8);
+    padding: 15px 0;
+    // for safari browser
+    backdrop-filter: blur(20px);
 }
 
 .HeaderGroup{
